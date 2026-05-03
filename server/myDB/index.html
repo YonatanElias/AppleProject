@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data-base</title>
+  </head>
+  <body>
+    <form action="http://localhost:3001/add-product" method="post">
+      <h2>RDBMS</h2>
+      <h2>Product information</h2>
+      <label for="pname">product_name:</label><br />
+      <input type="text" name="product_name" /><br />
+      <label for="url">product_url:</label><br />
+      <input type="text" name="product_url" /><br />
+      <h2>product_description</h2>
+      <label for="product_brief-des">product_brief-description:</label>
+      <input type="text" name="product_brief_description" /><br /><br />
+      <label for="product_description">product_description:</label>
+      <!-- <input type="text" name="" /><br /> -->
+      <textarea
+        name="desription"
+        rows="3"
+        cols="20"
+        placeholder="Type your text here..."
+      >
+      </textarea
+      ><br />
+      <label for="pimage">product-image:</label><br />
+      <input type="text" name="produc_img" /><br /><label for="product-link">product_link:</label><br>
+      <input type="text" name="product_link"><br>
+      
+      <!-- <input type="text" /> -->
+       <h2>product_price</h2>
+       <label for="s.price">StartingPrice:</label><br>
+       <input type="text" name="stating_price"><br>
+        <label for="price_range">price_range</label><br>
+       <input type="text" name="price_range"><br>
+       <h2>user_info</h2>
+        <label for="user_name">user_name:</label><br>
+       <input type="text" name="user_name"><br>
+        <label for="user_password">user_password:</label><br>
+       <input type="text" name="user_password"><br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </body>
+</html>
