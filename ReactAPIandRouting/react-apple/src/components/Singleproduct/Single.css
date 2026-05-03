@@ -1,0 +1,28 @@
+.brief {
+  margin: 10px 0;
+  color: #555;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.priceRange {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.iphone-image {
+  display: flex;
+  justify-content: center;
+}
+
+.iphone-image img {
+  width: 500px;
+}
+
+.product-details {
+  font-size: 20px;
+}

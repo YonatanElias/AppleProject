@@ -1,0 +1,117 @@
+/* Maine.module.css */
+
+.alertSection {
+  background-color: #f5f5f7;
+  padding: 12px 0;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.alertTitle {
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-bottom: 4px;
+}
+
+.alertText {
+  color: #6e6e73;
+  line-height: 1.4;
+}
+
+.alertText a {
+  color: #0071e3;
+  text-decoration: none;
+}
+
+.alertText a:hover {
+  text-decoration: underline;
+}
+
+/* Section Five - Two Column Layout */
+.sectionFive {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.left,
+.right {
+  flex: 1;
+  min-width: 300px;
+  padding: 40px 30px;
+  border-radius: 18px;
+  text-align: center;
+  background-color: #f5f5f7;
+}
+
+.left {
+  background-color: #1d1d1f;
+  color: white;
+}
+
+.left img {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+.bankerLogo img {
+  max-width: 140px;
+  margin: 15px 0;
+}
+
+.watchLink {
+  color: #2997ff;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.watchLink:hover {
+  text-decoration: underline;
+}
+
+.right img {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+.right p {
+  font-size: 21px;
+  line-height: 1.3;
+  margin-bottom: 25px;
+  color: #1d1d1f;
+}
+
+.links a {
+  color: #0071e3;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 17px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sectionFive {
+    flex-direction: column;
+  }
+  
+  .left, .right {
+    padding: 30px 20px;
+  }
+}
+
